@@ -1,0 +1,261 @@
+body {
+    font-family: 'Cormorant SC', serif;
+    margin: 0px;
+}
+
+/* Header Style Starts */
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.head-cont {
+    width: 1100px;
+    background: #161616;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    padding: 33px 60px 0px 150px;
+    margin-top: 50px;
+}
+
+.child-cont {
+    width: 100%;
+}
+
+#div1 {
+    padding-right: 100px;
+    margin-bottom: 130px;
+}
+
+.heading,
+.para {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.heading {
+    font-size: 70px;
+    font-weight: 700px;
+}
+
+.para {
+    font-size: 16px;
+    font-weight: 400px;
+    margin-bottom: 50px;
+}
+
+.head-cont a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    padding: 16px 25px;
+    background: #DD0000;
+    border-radius: 5px;
+}
+
+.fa-angle-right {
+    margin-left: 10px;
+}
+
+.header-img {
+    width: 581px;
+    height: 620px;
+}
+
+/* Header Style ends */
+
+/* Blog section starts */
+
+main {
+    display: flex;
+    justify-content: center;
+
+}
+
+.main-sec {
+    display: flex;
+    width: 1321px;
+    justify-content: center;
+    margin-top: 140px;
+    gap: 20px;
+}
+
+/* Mini side bar styling */
+
+.mini-cont {
+    display: flex;
+    flex-direction: column;
+    width: 312px;
+    height: 252px;
+    background: #161616;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.sidebar-btn {
+    width: 252px;
+    height: 64px;
+    border-radius: 10px;
+}
+
+#btn-1,
+#btn-2 {
+    background-color: white;
+    color: #161616;
+    font-size: 20px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+#btn-3 {
+    background-color: #DD0000;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* Mini side bar styling */
+
+/* blogs styling starts */
+
+.blog-cont {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    row-gap: 20px;
+}
+
+.blog-divs {
+    border: 1px solid rgb(241, 240, 240);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 10px;
+}
+
+.blogs {
+    width: 312px;
+    height: 362px;
+    row-gap: 30px;
+}
+
+.blog-cont .blog-divs .blogs img {
+    width: 312px;
+    height: 175px;
+}
+
+.blog-texts {
+    margin-left: 30px;
+}
+
+.artical-btn {
+    display: flex;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #161616;
+    align-items: center;
+    border: 2px solid rgb(110, 108, 108);
+    border-radius: 5px;
+    width: 100px;
+    height: 32px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.blog-para {
+    font-size: 18px;
+    columns: #161616;
+    font-weight: 600;
+}
+
+.blog-icons {
+    width: 143px;
+    display: flex;
+    column-gap: 30px;
+}
+
+.blog-icons p {
+    font-size: 16px;
+    color: #161616b6;
+}
+
+
+/* blogs styling endss */
+
+/* button for tab */
+.button-for-tab {
+    background-color: #DD0000;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    width: 1000px;
+    padding: 10px 50px;
+}
+
+.extra-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+    display: none;
+
+}
+
+/* button for tab */
+
+/* Blog section ends */
+
+/* Footer section */
+
+footer {
+    background-color: #161616;
+    height: 400px;
+    padding-top: 130px;
+    margin-top: 130px;
+}
+
+.top2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-heading {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+hr {
+    width: 80%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin: 50px 0px 50px 0px;
+}
+
+.footer-menus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.footer-menu {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+/* Footer section ends */

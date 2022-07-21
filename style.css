@@ -398,16 +398,22 @@ hr {
 
 /* ------------------mobile device 688 px--------------- */
 
-@media only screen and (max-width: 688px) and (min-width: 50px) {
+@media only screen and (max-width: 668px) {
     .head-cont {
         display: flex;
         flex-direction: column;
-        height: 773px;
-        width: 334px;
+        height: 710px;
+        width: 364px;
+        padding-top: 10px;
     }
 
     .child-cont {
         text-align: center;
+    }
+
+    .header-img {
+        width: 255px;
+        height: 273px;
     }
 
     .tab-buttons {

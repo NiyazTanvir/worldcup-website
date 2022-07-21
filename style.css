@@ -10,12 +10,13 @@ header {
 }
 
 .head-cont {
-    width: 1100px;
+    width: 1235px;
+    height: 618px;
     background: #161616;
     display: flex;
     align-items: center;
     border-radius: 30px;
-    padding: 33px 60px 0px 150px;
+    padding: 40px 60px 0px 150px;
     margin-top: 50px;
 }
 
@@ -25,7 +26,7 @@ header {
 
 #div1 {
     padding-right: 100px;
-    margin-bottom: 130px;
+    margin-bottom: 150px;
 }
 
 .heading,
@@ -45,7 +46,9 @@ header {
     margin-bottom: 50px;
 }
 
-.head-cont a {
+
+
+.header-button {
     text-decoration: none;
     text-align: center;
     font-size: 20px;
@@ -53,11 +56,19 @@ header {
     padding: 16px 25px;
     background: #DD0000;
     border-radius: 5px;
+    transition: width 9s ease-in;
 }
+
+.header-button:hover {
+    width: 400px;
+}
+
+/* .header-button {} */
 
 .fa-angle-right {
     margin-left: 10px;
 }
+
 
 .header-img {
     width: 581px;
@@ -76,7 +87,7 @@ main {
 
 .main-sec {
     display: flex;
-    width: 1321px;
+    width: 1430px;
     justify-content: center;
     margin-top: 140px;
     gap: 20px;
@@ -110,6 +121,7 @@ main {
     align-items: center;
     justify-content: center;
     margin-bottom: 30px;
+
 }
 
 #btn-3 {
@@ -147,7 +159,7 @@ main {
 }
 
 .blog-cont .blog-divs .blogs img {
-    width: 312px;
+    width: 351px;
     height: 175px;
 }
 
@@ -191,7 +203,7 @@ main {
 
 /* blogs styling endss */
 
-/* button for tab */
+/* button for tab 1*/
 .button-for-tab {
     background-color: #DD0000;
     color: white;
@@ -207,13 +219,47 @@ main {
     align-items: center;
     justify-content: center;
     margin: 100px;
-    display: none;
-
+    visibility: hidden;
+    padding: 10px 20px;
 }
 
-/* button for tab */
+/* button for tab 1*/
+
+/* flex buttons for tab */
+#tab-btn-3 {
+    margin-bottom: 30px;
+    background-color: #DD0000;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tab-buttons {
+    display: flex;
+    gap: 22px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    display: none;
+}
+
+.tab-btn {
+    width: 230px;
+    height: 64px;
+    background: #FFFFFF;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+}
+
+
+/* flex buttons for tab */
 
 /* Blog section ends */
+
 
 /* Footer section */
 
@@ -259,3 +305,130 @@ hr {
 }
 
 /* Footer section ends */
+
+
+/* media queries */
+
+/* ------------------tablet device 991 to 688 px--------------- */
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+    .head-cont {
+        width: 734px;
+        height: 398px;
+        border-radius: 30px;
+    }
+
+    #div1 {
+        margin-bottom: 160px;
+
+    }
+
+    .heading {
+        font-Weight: 700;
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .child-cont {
+        width: 316px;
+        height: 276px;
+    }
+
+    .para {
+        font-Weight: 400;
+        font-Size: 14px;
+        Line-height: 24px;
+        margin-bottom: 20px;
+    }
+
+    .header-button {
+        padding: 12px;
+        gap: 10px;
+        width: 161px;
+        height: 48px;
+        background: #DD0000;
+        border-radius: 5px;
+    }
+
+    .header-img {
+        width: 325px;
+        height: 336px;
+    }
+
+    .mini-cont {
+        display: none;
+    }
+
+    .tab-buttons {
+        display: inline-flex;
+    }
+
+    .for-tab {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: -100px;
+    }
+
+    .blog-cont {
+        display: grid;
+        align-items: center;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        row-gap: 20px;
+    }
+
+    .blog-divs {
+        width: 357px;
+        height: 414.21px;
+    }
+
+    .blog-cont .blog-divs .blogs img {
+        width: 358px;
+        height: 175px;
+    }
+
+    .extra-button {
+        visibility: visible;
+        margin-bottom: -20px;
+    }
+
+}
+
+/* ------------------tablet device 991 to 688 px---------------  */
+
+/* ------------------mobile device 688 px--------------- */
+
+@media only screen and (max-width: 688px) and (min-width: 50px) {
+    .head-cont {
+        display: flex;
+        flex-direction: column;
+        height: 773px;
+        width: 334px;
+    }
+
+    .child-cont {
+        text-align: center;
+    }
+
+    .tab-buttons {
+        display: flex;
+        flex-direction: column;
+        row-gap: 0px;
+    }
+
+    .blog-cont {
+        display: grid;
+        align-items: center;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        row-gap: 20px;
+    }
+
+    .mini-cont {
+        display: none;
+    }
+}
+
+/* ------------------mobile device 688 px--------------- */
+
+/* media queries */
